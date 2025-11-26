@@ -47,16 +47,15 @@ export default function RootLayout({
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3">
+            <footer className="w-full flex items-center justify-center pb-2 pt-16">
               <Link
                 isExternal
                 target="_blank"
-                className="flex items-center gap-1 text-current"
+                className="flex items-center gap-1 text-current text-gray"
                 href="https://www.visual-riot.com"
                 title="visual-riot.com homepage"
-                color="foreground"
               >
-                <span className="text-default-600">Designed & Built by</span>
+                <span className="text-gray">Designed & Built by</span>
                 <p className="text-[#FF6B35]">Visual Riot</p>
               </Link>
             </footer>

@@ -11,7 +11,7 @@ const config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-sans)"],
-        mono: ["var(--font-mono)"],
+        mono: ["Consolas", "Monaco", "Courier New", "monospace"],
       },
       backgroundImage: {
         "gradient-red-light": "linear-gradient(to bottom, #D2691E, #CC2200)",
@@ -27,16 +27,16 @@ const config = {
       themes: {
         light: {
           colors: {
-            background: "#ffffff", // Light theme background
+            background: "#ededed", // Light theme background
             foreground: "#000000", // Light theme text
-            gray: "linear-gradient(to bottom, #D2691E, #CC2200)",
+            gray: "#969696",
           },
         },
         dark: {
           colors: {
             background: "#1e1e27", // Dark theme background
             foreground: "#ffffff", // Dark theme text
-            gray: "linear-gradient(to bottom, #9B9B9B, #E7E7E7)",
+            gray: "#969696",
           },
         },
       },
