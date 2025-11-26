@@ -42,7 +42,7 @@ export default function VoiceButton() {
       const text = event.results[0][0].transcript;
       const searchUrl =
         "https://www.google.com/search?q=" + encodeURIComponent(text);
-      const newWindow = window.open(searchUrl, "_blank", "popup");
+      window.open(searchUrl, "_blank");
     };
 
     recognition.onerror = () => {
