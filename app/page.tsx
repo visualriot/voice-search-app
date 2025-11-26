@@ -1,14 +1,13 @@
 // import { Link } from "@heroui/link";
 // import { button as buttonStyles } from "@heroui/theme";
 // import { siteConfig } from "@/config/site";
-import { Code } from "@heroui/code";
 import { title, subtitle } from "@/components/primitives";
 
 import VoiceButton from "@/components/VoiceButton";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center space-y-20 min-h-full">
+    <section className="flex flex-col items-center justify-center space-y-20 md:min-h-full">
       <div className="inline-block text-center">
         <span className={title({ color: "gray" })}>Press the&nbsp;</span>
         <span className={title({ color: "red" })}>button</span>

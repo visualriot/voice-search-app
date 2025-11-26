@@ -38,11 +38,11 @@ export const Navbar = () => {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent
+      {/* <NavbarContent
         className="hidden sm:flex basis-1/5 sm:basis-full"
         justify="end"
       >
-        {/* <ul className="hidden lg:flex gap-4 justify-start ml-2">
+        <ul className="hidden lg:flex gap-4 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink
@@ -57,7 +57,7 @@ export const Navbar = () => {
               </NextLink>
             </NavbarItem>
           ))}
-        </ul> */}
+        </ul>
         <NavbarItem className="hidden sm:flex gap-2">
           <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
             <DiscordIcon className="text-default-500" />
@@ -69,7 +69,7 @@ export const Navbar = () => {
         </NavbarItem>
 
         <NavbarItem className="hidden md:flex">
-          {/* <Button
+          <Button
             isExternal
             as={Link}
             className="text-sm font-normal text-default-600 bg-default-100"
@@ -78,19 +78,19 @@ export const Navbar = () => {
             variant="flat"
           >
             Sponsor
-          </Button> */}
+          </Button>
         </NavbarItem>
-      </NavbarContent>
+      </NavbarContent> */}
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <Link isExternal aria-label="Github" href={siteConfig.links.github}>
+        {/* <Link isExternal aria-label="Github" href={siteConfig.links.github}>
           <GithubIcon className="text-default-500" />
-        </Link>
+        </Link> */}
         <ThemeSwitch />
-        <NavbarMenuToggle />
+        {/* <NavbarMenuToggle /> */}
       </NavbarContent>
 
-      <NavbarMenu>
+      {/* <NavbarMenu>
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
@@ -110,7 +110,7 @@ export const Navbar = () => {
             </NavbarMenuItem>
           ))}
         </div>
-      </NavbarMenu>
+      </NavbarMenu> */}
     </HeroUINavbar>
   );
 };

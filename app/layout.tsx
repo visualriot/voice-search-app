@@ -44,14 +44,14 @@ export default function RootLayout({
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col h-screen">
             <Navbar />
-            <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+            <main className="container mx-auto max-w-7xl pt-16 px-2 md:px-6 flex-grow">
               {children}
             </main>
             <footer className="w-full flex items-center justify-center pb-2 pt-16">
               <Link
                 isExternal
                 target="_blank"
-                className="flex items-center gap-1 text-current text-gray"
+                className="flex items-center gap-1 text-gray"
                 href="https://www.visual-riot.com"
                 title="visual-riot.com homepage"
               >
