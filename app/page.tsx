@@ -16,7 +16,7 @@ export default function Home() {
         <span className={title({ color: "red" })}>talk</span>
 
         <div className={subtitle({ class: "mt-6" })}>
-          Start voice dictation instantly.
+          Your words go straight into Google Search.
         </div>
       </div>
 
@@ -24,14 +24,14 @@ export default function Home() {
       <VoiceButton />
       <div className="inline-block text-center space-y-4 opacity-85">
         <p className="font-mono text-default-500">
-          Please,&nbsp;
+          Please use&nbsp;
           <span className="text-default-800">
-            use Google Chrome browser{" "}
+            Google Chrome on desktop{" "}
           </span>{" "}
           for this app.
         </p>
         <p className="font-mono text-default-500">
-          On your first use, please{" "}
+          On your first use,{" "}
           <span className="text-default-800">allow microphone access</span>.
         </p>
         <p className="font-mono text-default-500">
