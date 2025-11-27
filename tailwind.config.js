@@ -34,7 +34,7 @@ const config = {
         },
         dark: {
           colors: {
-            background: "#1e1e27", // Dark theme background
+            background: "#18181B", // Dark theme background
             foreground: "#ffffff", // Dark theme text
             gray: "#969696",
           },
